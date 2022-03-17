@@ -1,0 +1,88 @@
+@import url(reset.css);
+:root {
+    --principal: rgb(252, 228, 163);
+	--secundario: rgb(97, 127, 222);
+	--secundarioOscuro: #270075;
+	--fuenteprincipal: font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: .2s ease;
+}
+a:hover {
+    color: var(--secundario);
+}
+div.enlaces {
+    display: flex; 
+	justify-content: space-around;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;    
+}
+
+header {
+    background: var(--principal);
+    padding-top: 30px;
+    height: 100px;
+}
+div.nombre {
+    margin-top: -35px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.content {
+    margin-top: 70px;
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+}
+.content a:hover {
+    color: rgb(255, 201, 53);
+}
+a img {
+    width: 200px;
+}
+a h2 {
+    text-align: center;
+}
+
+.exercicis {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    margin-top: 135px;
+    background: var(--principal);
+}
+footer h3 {
+    text-align: center;
+}
+
+.capsula {
+    border: 5px solid #000;
+}
+.capsula:hover {
+    background-color: var(--principal);
+    
+}
+
+.footerExe {
+    margin-top: 280px;
+}
+.footerBio {
+    margin-top: 420px;  
+}
+
+.bio {
+    text-align: center;
+    padding: 50px;
+}
