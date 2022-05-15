@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria imágenes</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <h1>Jam Musico-Poética</h1>
+    <h2>marzo 2022</h2>
+    <p>©Raúl Moreno</p>
+
+    <div class="row">
+       
+        <div id="column">
+            <img src="imgs/1.jpg" onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/2.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/3.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/4.jpg"onclick="abrirImagenGrande(this.src)">           
+        </div>
+        <div id="column">
+            <img src="imgs/5.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/6.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/7.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/8.jpg"onclick="abrirImagenGrande(this.src)">
+        </div>
+        <div id="column">
+            <img src="imgs/9.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/10.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/11.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/12.jpg"onclick="abrirImagenGrande(this.src)">
+        </div>
+        <div id="column">
+            <img src="imgs/13.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/14.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/15.jpg"onclick="abrirImagenGrande(this.src)">
+            <img src="imgs/16.jpg"onclick="abrirImagenGrande(this.src)">
+        </div>
+    </div>
+    <section id="fulImgBox">
+        <div id="contenedor-interno">
+            <img id="fulImg" src="imgs/1.jpg" alt="">
+            <button id="btn-cierra" onclick="cerrarImagen()">X</button>
+        </div>
+    </section>
+    <footer>
+        <p>Fotografías realizadas en Sinestesia Bar</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
