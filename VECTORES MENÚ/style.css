@@ -47,8 +47,10 @@ main {
 }
 
 .nav-item {
-    width: 100%;
+    width: 50%;
+    margin-left: -40px;
 }
+
 
 .nav-item:last-child {
     margin-top: auto;
@@ -77,7 +79,7 @@ main {
 }
 
 .navegador:hover {
-    width: 16rem;
+    width: 15rem;
 }
 
 .navegador:hover .link-text {
