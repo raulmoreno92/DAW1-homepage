@@ -71,6 +71,10 @@ main {
     min-width: 2rem;
     margin: 0 1.5rem;
 }
+.nav-link svg:hover {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+}
 
 .navegador:hover {
     width: 16rem;
